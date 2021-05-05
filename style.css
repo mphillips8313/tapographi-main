@@ -1,4 +1,22 @@
-
+@font-face {
+    font-family: "nationalpark";
+    src: url("fonts/nationalpark-heavy-webfont.woff");
+    src:
+    url("css/fonts/nationalpark-heavy-webfont.woff") format("woff"),
+    }
+@font-face {
+    font-family: "nationalpark-outline";
+    src: url("fonts/nationalpark-outline-webfont.woff");
+    src:
+    url("css/fonts/nationalpark-outline-webfont.woff") format("woff"),
+    }
+*{
+   
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'nationalpark', sans-serif;
+  }
 html,body{
 display: grid;
 margin: 0;
@@ -29,23 +47,14 @@ font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 .content h1{
-  font-family: 'Century Gothic',sans-serif;
-  color: #f9f3f4;
+  font-family: 'nationalpark-outline',sans-serif;
+  color: #E5E8E8;
   font-size: 500%;
   text-shadow: 0 0 300px #000;
 }
 .content h2{
-    font-family: 'Century Gothic',sans-serif;
-    color: #f9f3f4;
-    font-size: 300%;
+    font-family: 'nationalpark',sans-serif;
+    color: #E5E8E8;
+    font-size: 250%;
     text-shadow: 0 0 300px #000;
 }
-
-/* p{
-  font-size: 160%;
-  line-height: 200%;
-  text-align: justify;
-  margin: 3%;
-  font-family: sans-serif;
-} */
-
