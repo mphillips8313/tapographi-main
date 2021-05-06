@@ -15,7 +15,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'nationalpark', sans-serif;
+font-family: 'Hind Madurai', sans-serif;
   }
 html,body{
 display: grid;
@@ -47,13 +47,13 @@ font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 .content h1{
-  font-family: 'nationalpark-outline',sans-serif;
+  font-family: 'Hind Madurai',sans-serif;
   color: #E5E8E8;
   font-size: 500%;
   text-shadow: 0 0 300px #000;
 }
 .content h2{
-    font-family: 'nationalpark',sans-serif;
+    font-family: 'Hind Madurai',sans-serif;
     color: #E5E8E8;
     font-size: 250%;
     text-shadow: 0 0 300px #000;
